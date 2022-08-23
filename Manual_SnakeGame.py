@@ -32,7 +32,7 @@ while True:
 			elif e.key == K_LEFT and dirs != 1:dirs = 3
 			elif e.key == K_RIGHT and dirs != 3:dirs = 1
 	i = len(xs)-1
-	while i >= 2:
+
 		if collide(xs[0], xs[i], ys[0], ys[i], 20, 20, 20, 20):
 			die(s, score)
 		i-= 1
