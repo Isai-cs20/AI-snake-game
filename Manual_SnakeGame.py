@@ -48,7 +48,7 @@ while True:
 	i = len(xs)-1
 	while i >= 1:
 		xs[i] = xs[i-1];ys[i] = ys[i-1];i -= 1
-	if dirs==0:ys[0] += 20
+	
 	elif dirs==1:xs[0] += 20
 	elif dirs==2:ys[0] -= 20
 	elif dirs==3:xs[0] -= 20	
