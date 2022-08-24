@@ -3,7 +3,7 @@ from snake.game import Game, GameConf, GameMode
 greedy = "GreedySolver"
 hamilton = "HamiltonSolver"
 
-
+normal = GameMode.NORMAL
 
 
 conf = GameConf()
