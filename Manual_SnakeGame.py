@@ -55,4 +55,4 @@ while True:
 	s.fill((255, 255, 255))	
 	for i in range(0, len(xs)):
 		s.blit(img, (xs[i], ys[i]))
-	s.blit(appleimage, applepos);t=f.render(str(score), True, (0, 0, 0));s.blit(t, (10, 10));pygame.display.update()
+	
