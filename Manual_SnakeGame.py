@@ -20,7 +20,7 @@ appleimage.fill((0, 255, 0));
 img = pygame.Surface((20, 20));
 img.fill((255, 0, 0));
 f = pygame.font.SysFont('Arial', 20);
-clock = pygame.time.Clock()
+
 while True:
 	clock.tick(10)
 	for e in pygame.event.get():
