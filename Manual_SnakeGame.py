@@ -17,7 +17,7 @@ s=pygame.display.set_mode((600, 600));
 pygame.display.set_caption('Snake');
 appleimage = pygame.Surface((10, 10));
 appleimage.fill((0, 255, 0));
-img = pygame.Surface((20, 20));
+
 img.fill((255, 0, 0));
 f = pygame.font.SysFont('Arial', 20);
 clock = pygame.time.Clock()
