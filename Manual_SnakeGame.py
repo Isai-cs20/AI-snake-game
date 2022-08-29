@@ -10,7 +10,7 @@ def die(screen, score):
 	f=pygame.font.SysFont('Arial', 30);t=f.render('Your score was: '+str(score), True, (0, 0, 0));screen.blit(t, (10, 270));pygame.display.update();pygame.time.wait(2000);sys.exit(0)
 
 xs = [290, 290, 290, 290, 290];ys = [290, 270, 250, 230, 210];dirs = 0;score = 0;
-
+applepos = (random.randint(0, 590), random.randint(0, 590));
 pygame.init();
 
 s=pygame.display.set_mode((600, 600));
