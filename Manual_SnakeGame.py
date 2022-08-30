@@ -29,7 +29,7 @@ while True:
 		elif e.type == KEYDOWN:
 			if e.key == K_UP and dirs != 0:dirs = 2
 			elif e.key == K_DOWN and dirs != 2:dirs = 0
-			elif e.key == K_LEFT and dirs != 1:dirs = 3
+			
 		       	elif e.key == K_RIGHT and dirs != 3:dirs = 1
 	i = len(xs)-1
         while i >= 2:
