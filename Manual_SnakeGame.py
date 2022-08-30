@@ -13,8 +13,7 @@ xs = [290, 290, 290, 290, 290];ys = [290, 270, 250, 230, 210];dirs = 0;score = 0
 applepos = (random.randint(0, 590), random.randint(0, 590));
 pygame.init();
 
-s=pygame.display.set_mode((600, 600));
-pygame.display.set_caption('Snake');
+
 appleimage = pygame.Surface((10, 10));
 appleimage.fill((0, 255, 0));
 img = pygame.Surface((20, 20));
