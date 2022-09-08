@@ -10,4 +10,5 @@ conf = GameConf()
 conf.solver_name = hamilton
 conf.mode = normal
 print("Solver: %s " % (conf.solver_name))
-
+print("Mode: %s" %(conf.mode))
+Game(conf).run()
